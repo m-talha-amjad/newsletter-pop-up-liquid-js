@@ -1,0 +1,34 @@
+{
+  "current": {
+    "sections": {
+      "popup": {
+        "type": "popup",
+        "blocks": {
+          "popup-0": {
+            "type": "heading",
+            "settings": {
+              "title": "Subscribe",
+              "subheading": "<p>We only send emails once or twice a month and only about good things.<\/p>"
+            }
+          },
+          "popup-1": {
+            "type": "newsletter_signup",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "popup-0",
+          "popup-1"
+        ],
+        "settings": {
+          "enable_popup": true,
+          "image_position": "top",
+          "color_text": "#ffffff",
+          "color_text_button": "#1c2232",
+          "color_background_button": "#ffffff",
+          "color_overlay": "{{ shop.brand.colors.secondary[0].foreground }}",
+          "overlay_opacity": 0
+        }
+      },
+  }
+}
